@@ -4,6 +4,8 @@ const fsP = require("fs/promises");
 const axios = require("axios");
 const path = process.argv[2];
 
+// TODO: decompose check for URL
+function checkForUrl() {}
 /**
  * Read a path and if it's a URL access website for contents, otherwise print
  * file contents to console
